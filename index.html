@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="assets/icon.png" />
+  </head>
+
+  <body>
+    <div class="login">
+      <form id="loginForm" class="form_container">
+        <img src="assets/logo1.1.png" alt="" class="logo_container" />
+        <div class="title_container">
+          <p class="title">Ingresa tu cuenta</p>
+          <span class="subtitle"
+            >Inicia sesión en Travel y disfruta de la gran experiencia en
+            nuestra página web.</span
+          >
+        </div>
+        <br />
+        <div class="input_container">
+          <label class="input_label" for="email_field">Email</label>
+          <img src="assets/email.svg" class="icon" />
+          <input
+            placeholder="miguel@ejemplo.com"
+            title="Input title"
+            name="email"
+            type="email"
+            class="input_field"
+            id="email_field"
+            required
+          />
+        </div>
+        <div class="input_container">
+          <label class="input_label" for="password_field">Contraseña</label>
+          <img src="assets/password.svg" class="icon" />
+          <input
+            placeholder="Contraseña"
+            title="Input title"
+            name="password"
+            type="password"
+            class="input_field"
+            id="password_field"
+            required
+          />
+        </div>
+        <button type="submit" class="butt sign-in_btn">
+          <span>Iniciar sesión</span>
+        </button>
+        <p class="span">
+          ¿No tienes una cuenta?
+          <a href="./views/signup.php" class="span">Registrate</a>
+        </p>
+      </form>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

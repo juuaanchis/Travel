@@ -1,0 +1,117 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.profile-container {
+    flex: 1; /* El formulario ocupará el espacio necesario */
+    padding: 20px;
+}
+
+
+.container {
+    margin-top: 100px;
+}
+
+.update img {
+    width: 590px;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid #ccc;
+    display: block;
+    flex: 1;
+    object-fit: cover; 
+    margin-top: 23px;
+}
+
+h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    color: #495057;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.navbar {
+    box-shadow: 0px 50px 20px rgba(0, 0, 0, 0.01), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.09), 0px 7px 15px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: #666777;
+    font-weight: 500;
+    border: none;
+    box-shadow: none;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #000;
+    border: none;
+    box-shadow: none;
+}
+
+.nav-link:hover::before,
+.nav-link:active::before {
+    width: 100%;
+}
+
+.profile-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+        background-color: #ffffff;
+    }
+    .profile-container{
+        
+        box-shadow: none;
+        border: none;
+    }
+
+    .update img{
+        display: none;
+    }
+    .update {
+        background-color: rgb(255, 255, 255);
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+    .offcanvas-body ul:not(.dropdown-menu) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
