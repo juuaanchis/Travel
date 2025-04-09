@@ -25,7 +25,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="../css/style2.css">
     <link rel="shortcut icon" href="../assets/icon.png">
 </head>
@@ -50,7 +50,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
                             <button class="btn"><a class="nav-link mx-lg-2 active " href="#">Inicio</a></button>
                         </li>
                         <li class="nav-item">
-                            <button class="btn"> <a class="nav-link mx-lg-2 active " href="#">Favoritos</a></button>
+                            <button class="btn"> <a class="nav-link mx-lg-2 active " href="./favorite.php">Favoritos</a></button>
                         </li>
                         <li class="nav-item">
                             <div class="dropdown">
@@ -101,8 +101,9 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
                     <input type="number" class="form-control" value="1" min="1">
                     <span class="input-group-text"><img src="../assets/persona.svg" alt="Personas" width="20px"></span>
                 </div>
-                <button type="button" class="btn btn-primary"> <img src="../assets/buscar.png" width="20px">
-                   Buscar</button>
+                <a href="./search.php"> <button type="button" class="btn btn-primary"> <img src="../assets/buscar.png"
+                            width="20px">
+                        Buscar</button></a>
             </div>
             <p>Busca ofertas de hoteles en muchos sitios como estos:</p>
             <div class="agencias">
@@ -123,10 +124,10 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
                             <h5 class="card-title">Hotel tequendama</h5>
                             <p class="card-text">Bogotá, Colombia</p>
                             <div class="precio">
-                            <h5>$304.067</h5>
-                            <p>Por noche</p>
+                                <h5>$304.067</h5>
+                                <p>Por noche</p>
                             </div>
-                            <a href="#" class="btn btn-primary w-100">Consultar oferta</a>
+                            <a href="./detail.php" class="btn btn-primary w-100">Consultar oferta</a>
                         </div>
                     </div>
                 </div>
@@ -137,10 +138,10 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
                             <h5 class="card-title">Hotel Dann Carlton</h5>
                             <p class="card-text">Antioquia, Colombia</p>
                             <div class="precio">
-                            <h5>$275.400</h5>
-                            <p>Por noche</p>
+                                <h5>$275.400</h5>
+                                <p>Por noche</p>
                             </div>
-                            <a href="#" class="btn btn-primary w-100">Consultar oferta</a>
+                            <a href="./detail.php" class="btn btn-primary w-100">Consultar oferta</a>
                         </div>
                     </div>
                 </div>
@@ -151,10 +152,10 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
                             <h5 class="card-title">Bahía príncipe fantasía</h5>
                             <p class="card-text">Punta Cana, Republica Dominicana </p>
                             <div class="precio">
-                            <h5>$974.455</h5>
-                            <p>Por noche</p>
+                                <h5>$974.455</h5>
+                                <p>Por noche</p>
                             </div>
-                            <a href="#" class="btn btn-primary w-100">Consultar oferta</a>
+                            <a href="./detail.php" class="btn btn-primary w-100">Consultar oferta</a>
                         </div>
                     </div>
                 </div>
