@@ -102,7 +102,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
                     <span class="input-group-text"><img src="../assets/persona.svg" alt="Personas" width="20px"></span>
                 </div>
                 <button type="button" class="btn btn-primary"> <img src="../assets/buscar.png" width="20px">
-                    Buscar</button>
+                   Buscar</button>
             </div>
             <p>Busca ofertas de hoteles en muchos sitios como estos:</p>
             <div class="agencias">
