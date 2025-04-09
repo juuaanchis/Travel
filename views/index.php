@@ -47,9 +47,6 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <button class="btn"><a class="nav-link mx-lg-2 active " href="#">Inicio</a></button>
-                        </li>
-                        <li class="nav-item">
                             <button class="btn"> <a class="nav-link mx-lg-2 active " href="./favorite.php">Favoritos</a></button>
                         </li>
                         <li class="nav-item">

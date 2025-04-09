@@ -137,7 +137,7 @@ if (isset($_SESSION['success_message'])) {
                             <button class="btn"><a class="nav-link mx-lg-2 active " href="./index.php">Inicio</a></button>
                         </li>
                         <li class="nav-item">
-                            <button class="btn"> <a class="nav-link mx-lg-2 active " href="#">Favoritos</a></button>
+                            <button class="btn"> <a class="nav-link mx-lg-2 active " href="./favorite.php">Favoritos</a></button>
                         </li>
                         <li class="nav-item">
                             <div class="dropdown">

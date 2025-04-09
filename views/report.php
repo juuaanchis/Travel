@@ -69,7 +69,7 @@ $result = $conn->query($sql);
 
     .nav-link {
         color: #666777;
-        font-weight: 500;
+        font-weight: 700;
 
     }
 
